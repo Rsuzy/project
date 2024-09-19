@@ -6,6 +6,7 @@ body{
 img{
   float: left;
   margin-top: 200px;
+  margin-left: 250px;
 }
 #para{
     color: blue;
@@ -18,8 +19,10 @@ img{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 p{
-    margin-left: 350px;
-
+    margin-left: 250px;
+ margin-top: 300px ;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: xx-large;
 }
 input{ 
     width: 350px;
@@ -31,46 +34,57 @@ label{
 input[type=text]{
     font-size: x-large;
     font-weight: 400px;
+    height: 50px;
+    border-color: whitesmoke;
   }
 input[type=submit] {
-      background-color: blue;
+      background-color: rgb(61, 61, 223);
       color: aliceblue;
       cursor: pointer;
       font-size: larger;
      background-position: center;
-     
+     height: 50px;
+     border-color: rgb(178, 202, 247);
   }
   
  div {
         width: 350px;
-        height: 300px;
+        height: 350px;
         padding-left: 20px;
         padding-bottom: 20px;
         padding-right: 20px;
         padding-top: 20px;
         background-color:rgb(255, 255, 255);
-        box-shadow: 10px 10px 5px lightblue;
+        box-shadow: 5px 5px 5px lightblue;
         border-radius: 10px;
-        margin-left: 700px;
-        margin-bottom: -500px;
-        margin-top: 150px;
-        position: absolute;
+        margin-left: 900px;
+        margin-bottom: -500px;  
+        position: fixed;
+        float: right;
+        margin-top: -300px;
+        margin-bottom: -200px ;
       }
  #a1{
-     color: rgb(62, 185, 226);
+     color: rgb(140, 212, 236);
+     padding-left: 120px;
      
  }
  a{
-
+color: black;
  }
  blockquote {
     margin-top: 110px;
+    margin-left: 900px;
+    margin-top: 90px;
 
  }
  button{
     border-radius: 5px;
     font-size: larger;
-    background-color: rgb(72, 197, 72);
+    background-color: rgb(24, 190, 24);
     width: 200px;
     margin-top: 20px;
+    margin-left: 70px;
+    color: white;
+    border-color: rgb(183, 236, 183);
  }
